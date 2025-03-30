@@ -63,6 +63,6 @@ This project uses the I2C LCD control library:
 4. **Power up the Pico** and the display will show device control options.
 5. Use the **rotary encoder** to scroll and select which device to control.
 
-### Follow how_to_upload.md to upload all the project files to the board
+#### Follow how_to_upload.md to for steps to upload project files to the board
 
 Feel free to fork, modify, or expand this project to fit your use case!
