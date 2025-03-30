@@ -1,0 +1,17 @@
+{
+    "numdevices": 6,
+    
+    0 : ["First Device",  28],
+    1 : ["Second Device", 27],
+    2 : ["Third Device",  26],
+    3 : ["Fourth Device", 22],
+    4 : ["Fifth Device",  21],
+    5 : ["Sixth Device",  20],
+
+    "__CAUTION 1__" : "Must not use GPIO pins already used as defined in main.py::allocated_pins",
+    "__CAUTION 2__" : "TODO: FIXME: Ensure no duplicate pins above, To be check in code in future., ",
+    "__NOTES__"     : "device id is linear: 0 to (total - 1)",
+    "__STRUCTURE__" : "device id : [<Device Name>, <GPIO Pin Number>], devices[deivceid][0] is name & devices[deivceid][1] is GPIO Number"
+
+}
+
