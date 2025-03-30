@@ -1,7 +1,7 @@
 """
 ------------------------------------------------------------------------------
 Relay Control Board - A menu based relay control board that can replaces
-                      large of switches with 16x2 LCD and a rotary encoder.
+                      large number of switches with 16x2 LCD and a rotary encoder.
                       It also remembers the state of each device to ensure
                       that it starts with same satate when power is restored.
 ------------------------------------------------------------------------------
