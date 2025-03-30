@@ -1,10 +1,10 @@
-# Raspberry Pi Pico GPIO Allocation & Device Control
+# Raspberry Pi Pico Device Control
 
 This project is based on the Raspberry Pi Pico using MicroPython, with an LCD display, rotary encoder, 
 It includes fixed and configurable GPIO assignments, external hardware, and software library details.
 
 ---
-
+## GPIO Allocation
 ## 📌 Fixed GPIO Pin Allocation
 
 | GPIO | Function                 |
