@@ -219,7 +219,9 @@ def handler_up_event(deviceid):
         total_devices = deviceconfig.get_total_devices();
         
         # Select last element of the current page
-        if( 0 != total_devices % I2C_DISPLAY_NUM_ROWS):
+        # if there are not enough devices and
+        # we are on the last page.
+        if (0 != total_devices % I2C_DISPLAY_NUM_ROWS and (TotalPages  - 1) == CurrentPage):
             OnScreenIndex = (total_devices % I2C_DISPLAY_NUM_ROWS) - 1;
         else:
             OnScreenIndex = I2C_DISPLAY_NUM_ROWS - 1;
